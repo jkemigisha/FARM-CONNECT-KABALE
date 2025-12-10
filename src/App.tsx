@@ -26,7 +26,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/FARM-CONNECT-KABALE/">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/products" element={<Products />} />
